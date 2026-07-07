@@ -1,35 +1,146 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emanuelle da Silva Santos- </title>
+    <title>Emanuelle da Silva Santos — Currículo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Dados pessoais</h1>
-     <ul>
-        <li>nome: emanuelle da silva santos</li>
-        <li>data de nasc:07/06/2009</li>
-        <li>endereço: av laudino ivo vigo</li>
-        <li>bairro: praia de leste</li>
-        <li>cidade: Pontal do Paraná</li>
-        <li>cpf:152.839.709-65</li>
-        <li>estado civil: solteiro</li>
-        <li>número:22</li>
-        <li>cep:83255000</li>
 
-    <h2>qualificação profissional</h2>
-     </ul>
-     <li>Área de atuação:estudante</li>
-    <li>endereço: av laudino ivo vigo</li>    
-     </ul>
-     <h3>Formação acadêmica</h3>
-     <ul>
-        <li>cursando ensino médio</li>
-        <li>cursando Ads paralelamente</li>
-        <li>curso de compliance com certificado</li>
-        <img src="https://cdn-icons-png.flaticon.com/512/2920/2920072.png" alt="">
-    
+    <div class="page">
 
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <div class="profile">
+            
+                <img class="avatar" src="80805.webp" alt="">
+                <h1>Emanuelle da Silva Santos</h1>
+                <p class="role">Estudante</p>
+            </div>
 
-   
+            <nav class="side-nav">
+                <a href="#sobre" class="side-nav-link active">Sobre</a>
+                <a href="#qualificacao" class="side-nav-link">Qualificação</a>
+                <a href="#formacao" class="side-nav-link">Formação</a>
+                <a href="#experiencia" class="side-nav-link">Experiência</a>
+                <a href="#contato" class="side-nav-link">Contato</a>
+            </nav>
+
+            <div class="side-info">
+                <h4>Contato</h4>
+                <p>Pontal do Paraná — PR</p>
+                <p>CEP 83255-000</p>
+                <a href="Currículo.pdf" class="btn-outline"> baixar curriculum</a>
+            </div>
+        </aside>
+
+        <!-- CONTEÚDO -->
+        <main class="content">
+
+            <section id="sobre" class="section">
+                <header class="section-header">
+                    <h2>Sobre</h2>
+                    <span class="rule"></span>
+                </header>
+                <dl class="info-list">
+                    <div class="info-row">
+                        <dt>Data de nascimento</dt>
+                        <dd>07/06/2009</dd>
+                    </div>
+                    <div class="info-row">
+                        <dt>Endereço</dt>
+                        <dd>Av. Laudino Ivo Vigo, nº 22 — Praia de Leste</dd>
+                    </div>
+                    <div class="info-row">
+                        <dt>Cidade</dt>
+                        <dd>Pontal do Paraná — PR</dd>
+                    </div>
+                    <div class="info-row">
+                        <dt>Estado civil</dt>
+                        <dd>Solteira</dd>
+                    </div>
+                </dl>
+        
+            </section>
+
+            <section id="qualificacao" class="section">
+                <header class="section-header">
+                    <h2>Qualificação profissional</h2>
+                    <span class="rule"></span>
+                </header>
+                <p class="lead">Área de atuação: <strong>Estudante</strong></p>
+            </section>
+
+            <section id="formacao" class="section">
+                <header class="section-header">
+                    <h2>Formação acadêmica</h2>
+                    <span class="rule"></span>
+                </header>
+                <ul class="record-list">
+                    <li class="record">
+                        <h3>Ensino Médio</h3>
+                        <p>Em andamento</p>
+                    </li>
+                    <li class="record">
+                        <h3>Análise e Desenvolvimento de Sistemas</h3>
+                        <p>Cursando paralelamente</p>
+                    </li>
+                    <li class="record">
+                        <h3>Compliance</h3>
+                        <p>Curso concluído — com certificado</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="experiencia" class="section">
+                <header class="section-header">
+                    <h2>Experiência profissional</h2>
+                    <span class="rule"></span>
+                </header>
+                <ul class="record-list">
+                    <li class="record">
+                        <div class="record-top">
+                            <h3>Auxiliar Administrativo</h3>
+                            <span class="badge badge-formal">Formal</span>
+                        </div>
+                        <p>Expresso Nossa Senhora da Penha LTDA</p>
+                    </li>
+                    <li class="record">
+                        <div class="record-top">
+                            <h3>Atendente de Vendas Online</h3>
+                            <span class="badge badge-informal">Informal</span>
+                        </div>
+                        <p>Restaurante Assados do Celso</p>
+                    </li>
+                    <li class="record">
+                        <div class="record-top">
+                            <h3>Auxiliar de Vendas</h3>
+                            <span class="badge badge-informal">Informal</span>
+                        </div>
+                        <p>OutClub Premium</p>
+                    </li>
+                </ul>
+            </section>
+
+            <section id="contato" class="section">
+                <header class="section-header">
+                    <h2>Contato</h2>
+                    <span class="rule"></span>
+                </header>
+                <p class="lead">Pontal do Paraná — PR</p>
+                <a href="mailto:emanuelledasilvasantos346@gmail.com?subject=Contato pelo Portfólio&body=Olá, tudo bem?"
+   class="btn-primary">
+    Enviar e-mail
+</a>
+            </section>
+
+            <footer class="footer">
+                <p>&copy; 2026 Emanuelle da Silva Santos</p>
+            </footer>
+
+        </main>
+    </div>
+
+</body>
+</html>
